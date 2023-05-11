@@ -28,7 +28,7 @@
     ];
 
     stateVersion = "22.11";
-    username = maltbyhugh;
+    username = "maltbyhugh";
   };
 
   nixpkgs.config = {

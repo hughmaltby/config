@@ -4,7 +4,7 @@
     ...
 }: {
   home = {
-    homeDirectory = "/home/{USER}";
+    homeDirectory = "/home/maltbyhugh";
 
     packages = with pkgs; [
       bat
@@ -28,7 +28,7 @@
     ];
 
     stateVersion = "22.11";
-    username = "{USER}";
+    username = maltbyhugh;
   };
 
   nixpkgs.config = {

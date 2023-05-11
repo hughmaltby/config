@@ -1,5 +1,5 @@
 {
-  description = "Home Manager Configuration for {USER}";
+  description = "Home Manager Configuration for maltbyhugh";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-22.11";
@@ -14,7 +14,7 @@
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
     in {
-      homeConfigurations.{USER} = home-manager.lib.homeManagerConfiguration {
+      homeConfigurations.maltbyhugh = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
 
         modules = [
